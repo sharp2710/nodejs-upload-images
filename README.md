@@ -1,5 +1,5 @@
 # NodeJS Mysql Upload Images
->Upload and save files and folders to Mysql
+>Upload and save to Mysql
 
 ### Installing
 
