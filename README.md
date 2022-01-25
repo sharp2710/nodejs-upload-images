@@ -5,7 +5,7 @@
 
 1. Clone the project
 ```
-git clone https://github.com/SharpTH/upload-multiple-files.git
+git clone https://github.com/SharpTH/Node.js-Upload-images.git
 ```
 2. Install dependencies
 ```
