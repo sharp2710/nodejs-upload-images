@@ -12,7 +12,12 @@ let routes = app => {
     const file = req.params.filename;
     res.sendFile(file, { root: "images" });
   });
-   
+  
+    router.get("/icon/:filename",(req,res)=>{
+    const file = req.params.filename;
+    res.sendFile(file, { root: "images/icon" });
+  });
+
   router.get("/style.css",(_req,res)=>{
     res.sendFile("style.css", { root: "public" });
   })
