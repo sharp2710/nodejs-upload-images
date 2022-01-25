@@ -1,6 +1,6 @@
 # NodeJS Mysql Upload Images
 >Upload and save to Mysql
-<img src="https://sharp-witted.com/Node.js-Upload-images.gif" width="50" height="50" />
+<img src="https://sharp-witted.com/Node.js-Upload-images.jpeg" width="150" height="150" />
 ### Installing
 
 1. Clone the project
