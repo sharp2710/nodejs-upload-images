@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>🍜Node.js</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <form class="container-upload" onsubmit="return false" autocomplete="off">
+      <label id="label-upload" for="input-multi-files">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-upload"
+        >
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="17 8 12 3 7 8"></polyline>
+          <line x1="12" y1="3" x2="12" y2="15"></line>
+        </svg>
+        <input type="file" name="multi-files" multiple id="input-multi-files" />
+      </label>
+
+      <div>
+        <input type="text" name="path" id="path" placeholder="path" />
+        <button type="submit" id="upload" class="btn btn-primary">
+          Submit
+        </button>
+      </div>
+    </form>
+
+    <div class="container-images">
+      <div class="preview-images"></div>
+    </div>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>

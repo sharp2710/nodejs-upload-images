@@ -1,0 +1,174 @@
+body {
+  background-color: #e5e5e5;
+}
+
+
+.preview-images {
+  display: grid;
+  padding: 10px;
+  grid-gap: 1em;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: minmax(100px, auto);
+  grid-auto-flow: dense;
+}
+
+.preview-images img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  object-fit: cover;
+  -webkit-animation-name: jackInTheBox;
+  animation-name: jackInTheBox;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+#input-multi-files {
+  display: none;
+}
+
+#label-upload {
+  display: block;
+}
+
+
+.container-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-upload div {
+  display: flex;
+  flex-direction: revert;
+}
+
+
+.container-images {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+
+#label-upload {
+  margin-bottom: 1rem;
+  border: 1px solid #e8e8e8;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 6px 6px 12px #c5c5c5, 4px 2px 8px #ffffff;
+  width: 180px;
+  border-radius: 0.5em;
+  cursor: pointer;
+  height: 100px;
+  background: #e8e8e8;
+}
+
+#label-upload:hover {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+
+
+#upload {
+  border: none;
+  color: rgba(102, 102, 102, 0.801);
+  padding: 0.4em 0.7em;
+  font-size: 18px;
+  font-weight: bold;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  box-shadow: 6px 6px 12px #c5c5c5, 4px 2px 8px #ffffff;
+  cursor: pointer;
+}
+#upload:hover {
+  color: #666;
+}
+
+
+#path {
+  border-end-end-radius: 0;
+  box-shadow: 6px 6px 12px #c5c5c5, 4px 2px 8px #ffffff;
+  border: none;
+  padding: 0.1em 1.1em;
+  color: #090909;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+}
+
+#path:focus {
+  outline: none;
+}
+
+#path:focus {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+#path:hover {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+
+
+
+@-webkit-keyframes jackInTheBox {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.1) rotate(30deg);
+    transform: scale(0.1) rotate(30deg);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
+  50% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes jackInTheBox {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.1) rotate(30deg);
+    transform: scale(0.1) rotate(30deg);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
+  50% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
