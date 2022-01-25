@@ -7,7 +7,7 @@ NodeJs v8+ (https://nodejs.org/en/)
 
 1. Clone the project
 ```
-git clone https://github.com/autsada/nodejs-apolloserver-mongodb
+git clone https://github.com/SharpTH/upload-multiple-files.git
 ```
 2. Install dependencies
 ```
