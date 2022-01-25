@@ -8,9 +8,9 @@ let routes = app => {
 
   router.post("/multiple-upload", uploadController.multipleUpload);
 
-  router.get("/image/:filename",(req,res)=>{
+  router.get("/images/:filename",(req,res)=>{
     const file = req.params.filename;
-    res.sendFile(file, { root: "upload" });
+    res.sendFile(file, { root: "images" });
   });
    
   router.get("/style.css",(_req,res)=>{
