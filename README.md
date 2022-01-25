@@ -12,8 +12,4 @@ git clone https://github.com/SharpTH/Node.js-Upload-images.git
 cd Node.js-Upload-images
 npm install
 ```
-4. Start project
-```
-npm run dev
-```
 
