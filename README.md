@@ -12,5 +12,5 @@ git clone https://github.com/SharpTH/Node.js-Upload-images.git
 cd Node.js-Upload-images
 npm install
 ```
-### Example
+## Example
 ![](https://sharp-witted.com/storages/images/2.gif)
