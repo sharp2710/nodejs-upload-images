@@ -13,4 +13,4 @@ cd Node.js-Upload-images
 npm install
 ```
 ## Example
-![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
+![](https://sharp-witted.com/storages/images/2.gif)
