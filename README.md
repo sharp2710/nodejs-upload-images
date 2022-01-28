@@ -13,4 +13,4 @@ cd Node.js-Upload-images
 npm install
 ```
 ### Example
-!![](https://sharp-witted.com/storages/images/2.gif)
+![](https://sharp-witted.com/storages/images/2.gif)
