@@ -1,7 +1,5 @@
 # NodeJS Mysql Upload Images
 >Upload and save to Mysql
-
-### Package
 ### Installing
 
 1. Clone the project
