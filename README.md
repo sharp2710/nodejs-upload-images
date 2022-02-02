@@ -8,8 +8,8 @@ git clone https://github.com/SharpTH/nodejs-upload-images.git
 ```
 2. Install dependencies
 ```
-cd Node.js-Upload-images
+cd nodejs-upload-images
 npm install
 ```
 ## Example
-![](https://github.com/SharpTH/Node.js-Upload-images/blob/main/images/icon/2.gif)
+![](https://github.com/SharpTH/nodejs-upload-images/blob/main/images/icon/2.gif)
