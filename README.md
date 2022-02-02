@@ -1,8 +1,8 @@
-# NodeJS Mysql Upload Images
->Upload and save to Mysql
+# NodeJS MySQL Upload Images
+>Upload And Save To MySQL
 ### Installing
 
-1. Clone the project
+1. Clone The Project
 ```
 git clone https://github.com/SharpTH/Node.js-Upload-images.git
 ```
