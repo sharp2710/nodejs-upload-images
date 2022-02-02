@@ -1,4 +1,4 @@
-# NodeJS + MySQL + Upload Images
+# NodeJS + MySQL + Multer
 >Upload And Save To MySQL
 ### Installing
 
