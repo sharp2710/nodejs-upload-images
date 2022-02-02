@@ -1,4 +1,4 @@
-# NodeJS + express + mysql + multer
+# NodeJS + express + mysql + nodemon + multer
 >Upload And Save To MySQL
 ### Installing
 
