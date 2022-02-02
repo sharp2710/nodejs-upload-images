@@ -4,7 +4,7 @@
 
 1. Clone The Project
 ```
-git clone https://github.com/SharpTH/Node.js-Upload-images.git
+git clone https://github.com/SharpTH/nodejs-upload-images.git
 ```
 2. Install dependencies
 ```
